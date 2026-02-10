@@ -1,13 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea House</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    
-</head>
-<body>
-    
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/0398fc8d82.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+  </head>
+
+
+  <body>
+
+    <!-- Banner Section -->
+    <div class="mt-16 flex items-center justify-center  w-full">
+        <div class="mx-auto">
+            <h1 class="text-[80px] font-bold">It's good <br> tea time at The <br> Tea House</h1>
+            <p class="text-[18px] mt-8 text-[#666]">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+            <button class="text-[18px] flex items-center gap-2 mt-7 px-6 py-3 bg-gradient-to-b from-orange-600 from- via-orange-500 via- to-amber-600 to- rounded-md text-white">Explore More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+        <div class="mx-auto flex justify-end">
+          <img src="./images/banner.png" class="" alt="">
+
+          <div class="flex flex-row items-center justify-center w-64 h-24 gap-5 absolute left-1/2 bottom-3/11 bg-white rounded-xl shadow-xl">
+            <img src="./images/Group 5.png" class="w-12 h-12" alt="">
+            <div class="flex flex-col">
+              <h2 class="text-3xl font-bold">5.0</h2>
+              <p class="text-sm">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </body>
 </html>
